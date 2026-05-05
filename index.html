@@ -523,7 +523,7 @@ audio{width:100%;border-radius:8px;accent-color:var(--rose)}
 <!-- ═══════════ MUSIC ═══════════ -->
 <audio id="bgMusic" loop>
   <source src="intro-music.mp3" type="audio/mpeg">
-  <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+  <source src="Your_music_link_here">
 </audio>
 
 <!-- ══════════════════════════════════════════
@@ -789,7 +789,7 @@ audio{width:100%;border-radius:8px;accent-color:var(--rose)}
     <div class="player-section">
       <span class="player-label">Now Playing ♪</span>
       <audio id="playlistAudio" controls>
-        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        <source src="Your_music_link_here" type="audio/mpeg">
       </audio>
     </div>
     <div class="playlist-box">
@@ -963,7 +963,7 @@ function updateCountdown() {
      UTC_HOUR = BST_HOUR - 6   (e.g. 9 PM BST = 15 UTC)
      Current → 19 October 2026 at 12:00 AM BST = 18:00 UTC Oct 18
   ──────────────────────────────────────────────────────────── */
-  const bday = new Date(Date.UTC(2026, 9, 18, 18, 0, 0));
+  const bday = new Date(Date.UTC(2026, 4, 5, 11, 25, 0));
   const diff = bday - now;
   if (diff > 0) {
     const days    = Math.floor(diff/86400000);
